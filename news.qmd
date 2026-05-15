@@ -1,0 +1,33 @@
+---
+title: "News"
+subtitle: "Research milestones and updates"
+toc: false
+---
+
+::: {.news-feed}
+
+::: {.news-item}
+**Jul 2026** &nbsp;|&nbsp; Expected PhD thesis defense at the University of Waterloo.
+:::
+
+::: {.news-item}
+**Jul 2025** &nbsp;|&nbsp; Awarded the [Oravas Foundation Scholarship](https://oravas-foundation.com/award-winners-2/) for crystal plasticity-based damage modeling of advanced high-strength steels.
+:::
+
+::: {.news-item}
+**Feb 2025** &nbsp;|&nbsp; First-author paper on thermodynamically consistent crystal-plasticity damage modeling published in *International Journal of Plasticity*. [[DOI]](https://doi.org/10.1016/j.ijplas.2025.104255)
+:::
+
+::: {.news-item}
+**Sep 2024** &nbsp;|&nbsp; Teaching Assistant for ME219, Mechanics of Deformable Solids, University of Waterloo.
+:::
+
+::: {.news-item}
+**Sep 2022** &nbsp;|&nbsp; Teaching Assistant for ME559, University of Waterloo.
+:::
+
+::: {.news-item}
+**Jan 2022** &nbsp;|&nbsp; Started PhD research at the University of Waterloo in computational mechanics and material failure modeling.
+:::
+
+:::

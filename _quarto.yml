@@ -1,0 +1,70 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - "assets/**"
+    - "files/**"
+
+website:
+  title: "Sandip Dayani"
+  description: "Physics-based and ML-ready modeling of steel failure for automotive R&D."
+  site-url: "https://sandipdayani.github.io"
+  repo-url: "https://github.com/sandipdayani/sandipdayani.github.io"
+  favicon: assets/img/profile.png
+  open-graph: true
+  twitter-card: true
+
+  page-navigation: false
+  back-to-top-navigation: false
+
+  navbar:
+    background: light
+    pinned: false
+    collapse-below: lg
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: publications.qmd
+        text: Publications
+      - href: cv.qmd
+        text: CV
+      - href: news.qmd
+        text: News
+    right:
+      - icon: envelope
+        href: "mailto:sandip.dayani09@gmail.com"
+        aria-label: Email
+      - icon: linkedin
+        href: "https://www.linkedin.com/in/sandip-dayani/"
+        aria-label: LinkedIn
+      - icon: mortarboard
+        href: "https://scholar.google.ca/citations?user=zI0fpEwAAAAJ"
+        aria-label: Google Scholar
+      - icon: github
+        href: "https://github.com/sandipdayani"
+        aria-label: GitHub
+
+  page-footer:
+    background: light
+    left: "© 2026 Sandip Dayani"
+    right: "Built with [Quarto](https://quarto.org)"
+
+format:
+  html:
+    theme:
+      light: [cosmo, styles.scss]
+    css: styles.css
+    toc: false
+    anchor-sections: true
+    smooth-scroll: true
+    link-external-newwindow: true
+    link-external-icon: false
+    grid:
+      body-width: 900px
+      sidebar-width: 280px
+      margin-width: 220px
+
+execute:
+  freeze: auto

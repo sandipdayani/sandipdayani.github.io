@@ -1,0 +1,110 @@
+---
+title: "Sandip Dayani"
+subtitle: "PhD Candidate | Computational Mechanics | University of Waterloo"
+about:
+  template: trestles
+  image: assets/img/profile.png
+  image-shape: round
+  image-width: 16em
+  links:
+    - icon: envelope
+      text: Email
+      href: "mailto:sandip.dayani09@gmail.com"
+    - icon: linkedin
+      text: LinkedIn
+      href: "https://www.linkedin.com/in/sandip-dayani/"
+    - icon: mortarboard
+      text: Scholar
+      href: "https://scholar.google.ca/citations?user=zI0fpEwAAAAJ"
+    - icon: github
+      text: GitHub
+      href: "https://github.com/sandipdayani"
+toc: false
+page-layout: full
+---
+
+::: {.lead-statement}
+Physics-based and ML-ready modeling of steel failure for automotive R&D.
+:::
+
+I develop computational models that connect microstructure to failure in advanced high-strength steels. My work combines **crystal plasticity**, **damage mechanics**, **high-rate experiments**, **EBSD/DIC/IR measurements**, and **finite element implementation** to predict stress-strain softening, temperature rise, void evolution, texture change, and fracture. The goal is practical: reduce trial-and-error testing and build validated simulation tools for crash-critical lightweight steel design and future ML-based FLD prediction.
+
+I am completing my PhD in Mechanical and Mechatronics Engineering at the [University of Waterloo](https://uwaterloo.ca/). My current work focuses on thermodynamically consistent crystal-plasticity damage modeling for HSLA, DP, and Q&P steels, with direct relevance to automotive forming, crashworthiness, and material model calibration.
+
+::: {.impact-strip}
+::: {.impact-item}
+**10^-3 to 10^3 s^-1**
+strain-rate window for AHSS failure modeling
+:::
+::: {.impact-item}
+**HSLA, DP, Q&P**
+steel systems tied to automotive lightweighting
+:::
+::: {.impact-item}
+**EBSD + DIC + IR**
+microstructure, strain, and temperature validation loop
+:::
+:::
+
+## Research Focus
+
+::: {.research-grid}
+::: {.research-card}
+### Crystal Plasticity Damage
+Thermodynamically consistent damage evolution coupled with rate-dependent crystal plasticity for polycrystalline steels.
+:::
+
+::: {.research-card}
+### High-Rate Failure
+Prediction of void nucleation, growth, coalescence, post-necking softening, and fracture under dynamic loading.
+:::
+
+::: {.research-card}
+### Thermo-Mechanical Coupling
+Internal heat generation from plastic dissipation, local temperature rise, and its effect on dislocation recovery and softening.
+:::
+
+::: {.research-card}
+### ML-Ready FLD Direction
+Physics-based features and validated simulation data that can support machine-learning prediction of forming limit behavior.
+:::
+:::
+
+## Featured Work
+
+::: {.feature-panel}
+::: {.feature-copy}
+### Crystal plasticity-based damage model for HSLA steels
+Published in *International Journal of Plasticity*, this work developed and validated a rate-dependent crystal-plasticity damage model for HR340 and HR550 steels. The model captures stress-strain response, temperature rise, texture evolution, damage accumulation, and intermediate strain-rate predictions.
+
+[Read the research page](research.qmd){.btn-link-primary} [Paper DOI](https://doi.org/10.1016/j.ijplas.2025.104255){.btn-link}
+:::
+
+::: {.feature-image}
+![](assets/img/research/hsla_stress_temperature.png){fig-alt="Stress-strain and temperature response for HR340 and HR550 steels at multiple strain rates"}
+:::
+:::
+
+## Recent
+
+::: {.news-list}
+**Jul 2026** &nbsp;|&nbsp; Expected PhD thesis defense, University of Waterloo.
+
+**Jul 2025** &nbsp;|&nbsp; Awarded the [Oravas Foundation Scholarship](https://oravas-foundation.com/award-winners-2/) for crystal plasticity-based damage modeling of advanced high-strength steels.
+
+**Feb 2025** &nbsp;|&nbsp; First-author paper published in *International Journal of Plasticity*. [[DOI]](https://doi.org/10.1016/j.ijplas.2025.104255)
+
+**Sep 2024** &nbsp;|&nbsp; Teaching Assistant for ME219, Mechanics of Deformable Solids, University of Waterloo.
+:::
+
+## Selected Publication
+
+::: {.pub-card}
+**Thermodynamically consistent damage evolution model coupled with rate-dependent crystal plasticity: Application to high-strength low alloy steel at various strain rates**
+
+S. Dayani, W. Muhammad, A. Brahme, F. Hekmat, T. Sabiston, K. Inal
+
+*International Journal of Plasticity*, vol. 186, 104255, 2025.
+
+[Paper](https://doi.org/10.1016/j.ijplas.2025.104255){.btn-link} [Citation](publications.qmd){.btn-link}
+:::

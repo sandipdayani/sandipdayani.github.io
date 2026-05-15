@@ -1,0 +1,64 @@
+---
+title: "Publications"
+subtitle: "Peer-reviewed work and thesis outputs"
+toc: true
+toc-location: right
+toc-title: "Sections"
+---
+
+::: {.page-intro}
+My publication record is centered on physics-based damage modeling for advanced high-strength steels. A complete and up-to-date list is also available on [Google Scholar](https://scholar.google.ca/citations?user=zI0fpEwAAAAJ).
+:::
+
+## Journal Articles
+
+::: {.pub-entry featured}
+**Thermodynamically consistent damage evolution model coupled with rate-dependent crystal plasticity: Application to high-strength low alloy steel at various strain rates**
+
+S. Dayani, W. Muhammad, A. Brahme, F. Hekmat, T. Sabiston, K. Inal
+
+*International Journal of Plasticity*, vol. 186, 104255, 2025.
+
+[Paper](https://doi.org/10.1016/j.ijplas.2025.104255){.btn-link-primary} [BibTeX](#bib-dayani2025){.btn-link}
+
+::: {#bib-dayani2025 .bibtex-block}
+```bibtex
+@article{dayani2025damage,
+  title   = {Thermodynamically consistent damage evolution model coupled
+             with rate-dependent crystal plasticity: Application to
+             high-strength low alloy steel at various strain rates},
+  author  = {Dayani, Sandip and Muhammad, Waqas and Brahme, Abhijit and
+             Hekmat, Fatemah and Sabiston, Trevor and Inal, Kaan},
+  journal = {International Journal of Plasticity},
+  volume  = {186},
+  pages   = {104255},
+  year    = {2025},
+  doi     = {10.1016/j.ijplas.2025.104255}
+}
+```
+:::
+:::
+
+## In Preparation
+
+::: {.pub-entry}
+**Crystal plasticity and damage modeling for dual-phase and Q&P steels**
+
+Manuscript in preparation from PhD work on phase-interaction damage, retained austenite transformation, and high-rate failure behavior. Links will be posted after submission.
+:::
+
+::: {.pub-entry}
+**Physics-informed features for ML-based forming limit prediction**
+
+Planned work connecting constitutive response, microstructure, strain path, and damage indicators with ML-ready FLD prediction.
+:::
+
+## Thesis
+
+::: {.pub-entry}
+**Crystal plasticity-based damage modeling for predicting strain rate and temperature-dependent failure in advanced high-strength steels**
+
+S. Dayani
+
+PhD Thesis, University of Waterloo, 2026 expected.
+:::

@@ -1,0 +1,162 @@
+---
+title: "CV"
+subtitle: "Computational mechanics, material failure, and simulation-driven R&D"
+toc: true
+toc-location: right
+toc-title: "Sections"
+---
+
+::: {.cv-download}
+[Download PDF](files/Resume_Sandip_Dayani.pdf){.btn-link-primary} &nbsp; | &nbsp; PDF last updated: November 2025
+:::
+
+::: {.cv-profile}
+PhD candidate in Mechanical and Mechatronics Engineering at the University of Waterloo, focused on crystal plasticity, damage mechanics, high-rate deformation, and failure prediction in advanced high-strength steels. I build models that connect microstructure, experiments, and finite element implementation to practical automotive R&D problems.
+:::
+
+::: {.cv-highlights}
+::: {.cv-highlight}
+**Current focus**
+Steel failure prediction for automotive forming and crash applications
+:::
+::: {.cv-highlight}
+**Methods**
+Crystal plasticity, damage mechanics, DIC, EBSD, IR thermography
+:::
+::: {.cv-highlight}
+**Tools**
+Fortran, Python, LS-DYNA, Abaqus, ANSYS, MATLAB
+:::
+:::
+
+## Education
+
+::: {.timeline}
+::: {.timeline-entry}
+**PhD, Mechanical and Mechatronics Engineering**
+University of Waterloo, Canada | Expected Jul 2026
+
+Thesis: *Crystal plasticity-based damage modeling for predicting strain rate and temperature-dependent failure in advanced high-strength steels.*
+:::
+
+::: {.timeline-entry}
+**MSc, MERGE Technologies for Resource Efficiency**
+Technische Universitat Chemnitz, Germany | May 2021
+
+Research focus: thermal simulation, resource-efficient systems, and finite element modeling.
+:::
+
+::: {.timeline-entry}
+**BEng, Mechanical Engineering**
+Gujarat Technological University, India | Jun 2017
+
+Project focus: CFD analysis of diesel engine combustion chamber geometry.
+:::
+:::
+
+## Research Experience
+
+::: {.timeline}
+::: {.timeline-entry}
+**Doctoral Research Assistant**
+University of Waterloo | Jan 2022 - Present
+
+Developed a thermodynamically consistent damage evolution model and implemented it into a rate-dependent crystal-plasticity framework using Fortran. Investigated void nucleation, damage growth, temperature rise, texture evolution, and high-strain-rate failure in HSLA, DP, and Q&P steels. Conducted experimental validation using tensile testing, EBSD, DIC, and IR thermography.
+:::
+
+::: {.timeline-entry}
+**Master Thesis Researcher**
+Fraunhofer UMSICHT, Oberhausen | Jul 2020 - Apr 2021
+
+Modeled borehole heat exchangers with phase-change materials as backfill. Built and validated transient ANSYS/Fluent models for coaxial, U-tube, and spiral heat exchanger designs and studied thermal conductivity, latent heat, and phase transition temperature effects.
+:::
+
+::: {.timeline-entry}
+**Research Assistant**
+Fraunhofer IWS, Dresden | Jul 2020 - Mar 2021
+
+Worked on shielding-nozzle design for the COAXshield laser metal deposition system using ANSYS CFX, CAD-FEA integration, and parametric flow/thermal optimization.
+:::
+
+::: {.timeline-entry}
+**Research Intern**
+German Aerospace Centre (DLR), Augsburg | Sep 2019 - Dec 2019
+
+Performed thermal-structural simulations for automated fibre placement and validated thermal-gradient predictions against experimental measurements.
+:::
+
+::: {.timeline-entry}
+**Research Project Assistant**
+Technische Universitat Chemnitz | Apr 2019 - Aug 2019
+
+Developed RVE-based FE models for fibre-reinforced plastics with nonlinear elastic matrix behavior and generated effective material-property maps.
+:::
+:::
+
+## Publication
+
+::: {.pub-card}
+**Thermodynamically consistent damage evolution model coupled with rate-dependent crystal plasticity: Application to high-strength low alloy steel at various strain rates**
+
+S. Dayani, W. Muhammad, A. Brahme, F. Hekmat, T. Sabiston, K. Inal
+
+*International Journal of Plasticity*, vol. 186, 104255, 2025.
+
+[Paper](https://doi.org/10.1016/j.ijplas.2025.104255){.btn-link} [BibTeX](publications.qmd#bib-dayani2025){.btn-link}
+:::
+
+## Teaching, Awards, and Service
+
+::: {.timeline}
+::: {.timeline-entry}
+**Teaching Assistant**
+University of Waterloo | ME559, ME219
+
+Led tutorials, evaluated assignments, supported student projects, and held office hours for graduate and undergraduate mechanics courses.
+:::
+
+::: {.timeline-entry}
+**Oravas Foundation Scholarship**
+2025
+
+Awarded for crystal plasticity-based damage modeling of advanced high-strength steels. [Announcement](https://oravas-foundation.com/award-winners-2/)
+:::
+:::
+
+## Skills
+
+::: {.skill-section}
+**Computational mechanics**
+
+::: {.skill-chips}
+`Crystal plasticity` `Damage mechanics` `Ductile fracture` `Finite elements` `Thermo-mechanical coupling` `High-strain-rate failure` `Texture evolution` `Forming limits`
+:::
+:::
+
+::: {.skill-section}
+**Programming and implementation**
+
+::: {.skill-chips}
+`Fortran` `Python` `MATLAB` `Material model implementation` `Data processing` `Simulation automation`
+:::
+:::
+
+::: {.skill-section}
+**Software**
+
+::: {.skill-chips}
+`LS-DYNA` `Abaqus` `ANSYS Mechanical` `ANSYS Fluent/CFX` `VIC-3D` `DREAM.3D` `SolidWorks` `CATIA` `Creo` `Inventor`
+:::
+:::
+
+::: {.skill-section}
+**Experimental and characterization**
+
+::: {.skill-chips}
+`Tensile testing` `DIC` `EBSD` `IR thermography` `AHSS characterization` `Strain-rate testing`
+:::
+:::
+
+## Languages
+
+English | German | Hindi | Gujarati
