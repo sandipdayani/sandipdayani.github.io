@@ -1,6 +1,6 @@
 ---
 title: "Sandip Dayani"
-subtitle: "PhD Candidate | Computational Mechanics | University of Waterloo"
+subtitle: "PhD Candidate | Computational Mechanics | Crystal Plasticity | University of Waterloo"
 about:
   template: trestles
   image: assets/img/profile.png
@@ -24,16 +24,16 @@ page-layout: full
 ---
 
 ::: {.lead-statement}
-Physics-based and ML-ready modeling of steel failure for automotive R&D.
+Physics-based micromechanical modeling with crystal plasticity for failure prediction in advanced high-strength steels.
 :::
 
-I develop computational models that connect microstructure to failure in advanced high-strength steels. My work combines **crystal plasticity**, **damage mechanics**, **high-rate experiments**, **EBSD/DIC/IR measurements**, and **finite element implementation** to predict stress-strain softening, temperature rise, void evolution, texture change, and fracture. The goal is practical: reduce trial-and-error testing and build validated simulation tools for crash-critical lightweight steel design and future ML-based FLD prediction.
+I develop computational models that connect microstructure to failure in advanced high-strength steels. My work combines **crystal plasticity**, **damage mechanics**, **high-rate experiments**, **EBSD/DIC/IR measurements**, and **finite element implementation** to predict stress-strain softening, temperature rise, void evolution, texture change, and failure. The goal is practical: reduce trial-and-error testing and build validated simulation tools for crash-critical lightweight steel design and future ML-based FLD prediction.
 
 I am completing my PhD in Mechanical and Mechatronics Engineering at the [University of Waterloo](https://uwaterloo.ca/). My current work focuses on thermodynamically consistent crystal-plasticity damage modeling for HSLA, DP, and Q&P steels, with direct relevance to automotive forming, crashworthiness, and material model calibration.
 
 ::: {.impact-strip}
 ::: {.impact-item}
-**10^-3 to 10^3 s^-1**
+**0.001 to 100 /sec**
 strain-rate window for AHSS failure modeling
 :::
 ::: {.impact-item}
