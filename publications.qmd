@@ -11,7 +11,6 @@ My publication record is centered on physics-based damage modeling for advanced 
 
 ## Journal Articles
 
-::: {.pub-entry featured}
 **Thermodynamically consistent damage evolution model coupled with rate-dependent crystal plasticity: Application to high-strength low alloy steel at various strain rates**
 
 S. Dayani, W. Muhammad, A. Brahme, F. Hekmat, T. Sabiston, K. Inal
