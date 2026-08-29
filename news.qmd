@@ -7,7 +7,11 @@ toc: false
 ::: {.news-feed}
 
 ::: {.news-item}
-**Jul 2026** &nbsp;|&nbsp; Expected PhD thesis defense at the University of Waterloo.
+**Aug 2026** &nbsp;|&nbsp; Successfully defended my PhD thesis in Mechanical and Mechatronics Engineering at the University of Waterloo on 4 August 2026.
+:::
+
+::: {.news-item}
+**Jan 2026** &nbsp;|&nbsp; Invited oral presentation at the International Conference on Plasticity, Damage & Fracture (ICPDF 2026), Geelong, Australia.
 :::
 
 ::: {.news-item}
