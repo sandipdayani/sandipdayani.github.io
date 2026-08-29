@@ -541,6 +541,15 @@ a:hover {
   border-radius: 4px;
 }
 
+.research-panel-figure-stack {
+  display: grid;
+  gap: 0.8rem;
+
+  p {
+    margin: 0;
+  }
+}
+
 .research-panel {
   display: grid;
   grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
