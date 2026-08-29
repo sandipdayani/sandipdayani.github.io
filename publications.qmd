@@ -26,7 +26,7 @@ S. Dayani, W. Muhammad, A. Brahme, F. Hekmat, T. Sabiston, K. Inal
   title   = {Thermodynamically consistent damage evolution model coupled
              with rate-dependent crystal plasticity: Application to
              high-strength low alloy steel at various strain rates},
-  author  = {Dayani, Sandip and Muhammad, Waqas and Brahme, Abhijit and
+  author  = {Dayani, Sandipkumar and Muhammad, Waqas and Brahme, Abhijit and
              Hekmat, Fatemah and Sabiston, Trevor and Inal, Kaan},
   journal = {International Journal of Plasticity},
   volume  = {186},
@@ -41,13 +41,13 @@ S. Dayani, W. Muhammad, A. Brahme, F. Hekmat, T. Sabiston, K. Inal
 ## Submitted / Under Review
 
 ::: {.pub-entry}
-**Crystal plasticity and damage modeling for dual-phase steel**
+**Crystal plasticity and damage modeling for dual-phase steels**
 
 First-author manuscript submitted or under review. Links and full citation details will be posted after publication.
 :::
 
 ::: {.pub-entry}
-**Crystal plasticity and damage modeling for quenching and partitioning steel**
+**Crystal plasticity and damage modeling for quenching and partitioning steels**
 
 First-author manuscript submitted or under review, focused on retained-austenite transformation, phase interaction, and failure behavior. Links and full citation details will be posted after publication.
 :::
@@ -55,15 +55,15 @@ First-author manuscript submitted or under review, focused on retained-austenite
 ## Research Direction
 
 ::: {.pub-entry}
-**Physics-informed machine learning for forming-limit prediction**
+**Physics informed machine learning for forming limit prediction**
 
-Current work connecting crystallographic descriptors, constitutive response, strain path, and damage indicators with DeepONet and other ML-ready forming-limit workflows.
+Current work connecting crystallographic descriptors, constitutive response, and strain path with DeepONet and other ML ready forming limit workflows.
 :::
 
 ## Thesis
 
 ::: {.pub-entry}
-**Crystal plasticity-based damage modeling for predicting strain rate and temperature-dependent failure in advanced high-strength steels**
+**A New Crystal Plasticity-based Modeling of Damage Evolution in Advanced High Strength Steels under Varying Strain Rates, Temperatures, and Loading Conditions**
 
 S. Dayani
 
