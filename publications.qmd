@@ -7,9 +7,10 @@ toc-title: "Sections"
 ---
 
 My publication record is centered on physics-based damage modeling for advanced high-strength steels. A complete and up-to-date list is also available on [Google Scholar](https://scholar.google.ca/citations?user=zI0fpEwAAAAJ).
-:::
 
 ## Journal Articles
+
+::: {.pub-entry}
 
 **Thermodynamically consistent damage evolution model coupled with rate-dependent crystal plasticity: Application to high-strength low alloy steel at various strain rates**
 
@@ -37,18 +38,26 @@ S. Dayani, W. Muhammad, A. Brahme, F. Hekmat, T. Sabiston, K. Inal
 :::
 :::
 
-## In Preparation
+## Submitted / Under Review
 
 ::: {.pub-entry}
-**Crystal plasticity and damage modeling for dual-phase and Q&P steels**
+**Crystal plasticity and damage modeling for dual-phase steel**
 
-Manuscript in preparation from PhD work on phase-interaction damage, retained austenite transformation, and high-rate failure behavior. Links will be posted after submission.
+First-author manuscript submitted or under review. Links and full citation details will be posted after publication.
 :::
 
 ::: {.pub-entry}
-**Physics-informed features for ML-based forming limit prediction**
+**Crystal plasticity and damage modeling for quenching and partitioning steel**
 
-Planned work connecting constitutive response, microstructure, strain path, and damage indicators with ML-ready FLD prediction.
+First-author manuscript submitted or under review, focused on retained-austenite transformation, phase interaction, and failure behavior. Links and full citation details will be posted after publication.
+:::
+
+## Research Direction
+
+::: {.pub-entry}
+**Physics-informed machine learning for forming-limit prediction**
+
+Current work connecting crystallographic descriptors, constitutive response, strain path, and damage indicators with DeepONet and other ML-ready forming-limit workflows.
 :::
 
 ## Thesis
@@ -58,5 +67,5 @@ Planned work connecting constitutive response, microstructure, strain path, and 
 
 S. Dayani
 
-PhD Thesis, University of Waterloo, 2026 expected.
+PhD Thesis, University of Waterloo, 2026. Successfully defended 4 August 2026.
 :::
