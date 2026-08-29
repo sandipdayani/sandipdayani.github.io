@@ -7,7 +7,7 @@ project:
 
 website:
   title: "Sandip Dayani"
-  description: "Physics-based and ML-ready modeling of steel failure for automotive R&D."
+  description: "Physics-based micromechanical modeling, constitutive development, and multiscale validation for failure prediction in advanced high-strength steels."
   site-url: "https://sandipdayani.github.io"
   repo-url: "https://github.com/sandipdayani/sandipdayani.github.io"
   favicon: assets/img/profile.png
@@ -15,11 +15,12 @@ website:
   twitter-card: true
 
   page-navigation: false
-  back-to-top-navigation: false
+  back-to-top-navigation: true
+  search: false
 
   navbar:
     background: light
-    pinned: false
+    pinned: true
     collapse-below: lg
     left:
       - href: index.qmd
@@ -49,7 +50,7 @@ website:
   page-footer:
     background: light
     left: "© 2026 Sandip Dayani"
-    right: "Built with [Quarto](https://quarto.org)"
+    right: "Computational mechanics · Crystal plasticity · Steel failure"
 
 format:
   html:
@@ -62,7 +63,7 @@ format:
     link-external-newwindow: true
     link-external-icon: false
     grid:
-      body-width: 900px
+      body-width: 1040px
       sidebar-width: 280px
       margin-width: 220px
 
