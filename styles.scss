@@ -906,6 +906,12 @@ a:hover {
     object-fit: cover;
     object-position: center 30%;
   }
+
+  .profile-image-actual {
+    width: 100%;
+    aspect-ratio: 4 / 4.15;
+    background: url("assets/img/profile.png") center 30% / cover no-repeat;
+  }
 }
 
 .profile-status {
