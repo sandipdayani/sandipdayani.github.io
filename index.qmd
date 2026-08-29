@@ -29,7 +29,7 @@ I develop constitutive models from first principles, implement them as **Fortran
 
 <div class="profile-panel">
 <div class="profile-image-wrap">
-![](assets/img/profile.png){fig-alt="Portrait of Sandip Dayani"}
+<div class="profile-image-actual" role="img" aria-label="Portrait of Sandip Dayani"></div>
 </div>
 
 <div class="profile-status">
