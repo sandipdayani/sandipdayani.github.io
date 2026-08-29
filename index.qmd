@@ -1,110 +1,198 @@
 ---
-title: "Sandip Dayani"
-subtitle: "PhD Candidate | Computational Mechanics | Crystal Plasticity | University of Waterloo"
-about:
-  template: trestles
-  image: assets/img/profile.png
-  image-shape: round
-  image-width: 16em
-  links:
-    - icon: envelope
-      text: Email
-      href: "mailto:sandip.dayani09@gmail.com"
-    - icon: linkedin
-      text: LinkedIn
-      href: "https://www.linkedin.com/in/sandip-dayani/"
-    - icon: mortarboard
-      text: Scholar
-      href: "https://scholar.google.ca/citations?user=zI0fpEwAAAAJ"
-    - icon: github
-      text: GitHub
-      href: "https://github.com/sandipdayani"
+title: ""
+description: "Physics-based micromechanical modeling with crystal plasticity, constitutive theory, solver implementation, and multiscale validation for failure prediction in advanced high-strength steels."
+title-block-style: none
 toc: false
 page-layout: full
 ---
 
-::: {.lead-statement}
-Physics-based micromechanical modeling with crystal plasticity for failure prediction in advanced high-strength steels.
-:::
+<div class="home-shell">
+<div class="hero-grid">
+<div class="hero-copy">
+<div class="eyebrow">
+CONSTITUTIVE MODELING · CRYSTAL PLASTICITY · VALIDATION
+</div>
 
-I develop computational models that connect microstructure to failure in advanced high-strength steels. My work combines **crystal plasticity**, **damage mechanics**, **high-rate experiments**, **EBSD/DIC/IR measurements**, and **finite element implementation** to predict stress-strain softening, temperature rise, void evolution, texture change, and failure. The goal is practical: reduce trial-and-error testing and build validated simulation tools for crash-critical lightweight steel design and future ML-based FLD prediction.
+# Physics-based micromechanical modeling for failure prediction in advanced high-strength steels.
 
-I am completing my PhD in Mechanical and Mechatronics Engineering at the [University of Waterloo](https://uwaterloo.ca/). My current work focuses on thermodynamically consistent crystal-plasticity damage modeling for HSLA, DP, and Q&P steels, with direct relevance to automotive forming, crashworthiness, and material model calibration.
+I develop constitutive models from first principles, implement them as **Fortran user-material subroutines**, and validate them against **EBSD, DIC, infrared thermography, and mechanical tests**. My work connects microstructural mechanisms to component-scale behavior for automotive forming, crash, and failure prediction.
 
-::: {.impact-strip}
-::: {.impact-item}
-**0.001 to 100 /sec**
-strain-rate window for AHSS failure modeling
-:::
-::: {.impact-item}
-**HSLA, DP, Q&P**
-steel systems tied to automotive lightweighting
-:::
-::: {.impact-item}
-**EBSD + DIC + IR**
-microstructure, strain, and temperature validation loop
-:::
-:::
+<div class="hero-actions">
+[Explore my research](research.qmd){.btn-link-primary} [Download résumé](Sandip_Dayani_Resume.pdf){.btn-link} [Read the paper](https://doi.org/10.1016/j.ijplas.2025.104255){.text-link}
+</div>
 
-## Research Focus
+<div class="hero-meta">
+<span><i class="bi bi-geo-alt"></i> Kitchener-Waterloo, Canada · open to relocation</span>
+<span><i class="bi bi-mortarboard"></i> PhD · University of Waterloo · 2026</span>
+</div>
+</div>
 
-::: {.research-grid}
-::: {.research-card}
-### Crystal Plasticity Damage
-Thermodynamically consistent damage evolution coupled with rate-dependent crystal plasticity for polycrystalline steels.
-:::
+<div class="profile-panel">
+<div class="profile-image-wrap">
+![](assets/img/profile.png){fig-alt="Portrait of Sandip Dayani"}
+</div>
 
-::: {.research-card}
-### High-Rate Failure
-Prediction of void nucleation, growth, coalescence, post-necking softening, and fracture under dynamic loading.
-:::
+<div class="profile-status">
+<span class="status-dot"></span> Open to constitutive modeling & computational R&D roles
+</div>
 
-::: {.research-card}
-### Thermo-Mechanical Coupling
-Internal heat generation from plastic dissipation, local temperature rise, and its effect on dislocation recovery and softening.
-:::
+<div class="profile-name">
+**Sandip Dayani, PhD**
 
-::: {.research-card}
-### ML-Ready FLD Direction
-Physics-based features and validated simulation data that can support machine-learning prediction of forming limit behavior.
-:::
-:::
+Constitutive modeling · Multiscale validation · FEA
+</div>
 
-## Featured Work
+<div class="profile-links">
+[<i class="bi bi-linkedin"></i> LinkedIn](https://www.linkedin.com/in/sandip-dayani/) [<i class="bi bi-mortarboard"></i> Scholar](https://scholar.google.ca/citations?user=zI0fpEwAAAAJ) [<i class="bi bi-github"></i> GitHub](https://github.com/sandipdayani)
+</div>
+</div>
+</div>
 
-::: {.feature-panel}
-::: {.feature-copy}
-### Crystal plasticity-based damage model for HSLA steels
-Published in *International Journal of Plasticity*, this work developed and validated a rate-dependent crystal-plasticity damage model for HR340 and HR550 steels. The model captures stress-strain response, temperature rise, texture evolution, damage accumulation, and intermediate strain-rate predictions.
+<div class="proof-strip">
+<div class="proof-item">
+<span class="proof-value">PhD · 2026</span>
+<span class="proof-label">Mechanical & Mechatronics Engineering</span>
+</div>
+<div class="proof-item">
+<span class="proof-value">GM · sponsored</span>
+<span class="proof-label">industry-facing automotive research</span>
+</div>
+<div class="proof-item">
+<span class="proof-value">0.001–100 s<sup>−1</sup></span>
+<span class="proof-label">validated strain-rate window</span>
+</div>
+<div class="proof-item">
+<span class="proof-value">IJP · 2025</span>
+<span class="proof-label">first-author journal paper</span>
+</div>
+</div>
 
-[Read the research page](research.qmd){.btn-link-primary} [Paper DOI](https://doi.org/10.1016/j.ijplas.2025.104255){.btn-link}
-:::
+<div class="section-heading">
+<div class="section-kicker">
+FROM THEORY TO PREDICTION
+</div>
+## A complete constitutive-modeling workflow
 
-::: {.feature-image}
+I work across the full chain—derivation, implementation, experimentation, and validation—so model assumptions remain traceable to engineering decisions.
+</div>
+
+<div class="capability-rail">
+<div class="capability-step">
+<div class="capability-top">
+<span class="capability-number">01</span><span class="capability-symbol">∂</span>
+</div>
+### Constitutive theory
+Finite-deformation kinematics, free-energy and dissipation formulations, rate- and temperature-dependent plasticity, and thermodynamically consistent damage.
+
+<div class="capability-tools">Thermodynamics · Crystal plasticity</div>
+</div>
+
+<div class="capability-step">
+<div class="capability-top">
+<span class="capability-number">02</span><span class="capability-symbol">{ }</span>
+</div>
+### Solver implementation
+Custom constitutive physics implemented as Fortran UMAT/VUMAT subroutines inside implicit and explicit commercial finite-element solvers.
+
+<div class="capability-tools">Fortran · Abaqus · LS-DYNA</div>
+</div>
+
+<div class="capability-step">
+<div class="capability-top">
+<span class="capability-number">03</span><span class="capability-symbol">◎</span>
+</div>
+### Instrumented validation
+Test design and bottom-up validation from microstructure and coupon response to component behavior across strain rate and temperature.
+
+<div class="capability-tools">EBSD · DIC · IR · V-bend</div>
+</div>
+
+<div class="capability-step">
+<div class="capability-top">
+<span class="capability-number">04</span><span class="capability-symbol">↗</span>
+</div>
+### Predictive acceleration
+Physics-informed datasets and DeepONet surrogates that predict formability and mechanical response without repeating every full solver run.
+
+<div class="capability-tools">Python · PyTorch · DeepONet</div>
+</div>
+</div>
+
+<div class="feature-panel feature-panel-home">
+<div class="feature-copy">
+<div class="section-kicker">
+FEATURED RESEARCH
+</div>
+## Crystal-plasticity damage modeling—from derivation to validation
+
+For HR340 and HR550 steels, I derived a thermodynamically consistent damage formulation, implemented it in a rate-dependent crystal-plasticity framework, and validated stress-strain response, temperature rise, texture evolution, and damage across strain rates.
+
+**Published in:** *International Journal of Plasticity*, 186, 104255 (2025)
+
+[See the research](research.qmd){.btn-link-primary} [Read the paper](https://doi.org/10.1016/j.ijplas.2025.104255){.btn-link}
+</div>
+
+<div class="feature-image">
 ![](assets/img/research/hsla_stress_temperature.png){fig-alt="Stress-strain and temperature response for HR340 and HR550 steels at multiple strain rates"}
-:::
-:::
+</div>
+</div>
 
-## Recent
+<div class="home-bottom-grid">
+<div class="home-bottom-main">
+<div class="section-kicker">
+SELECTED PUBLICATION
+</div>
+## Recent peer-reviewed work
 
-::: {.news-list}
-**Jul 2026** &nbsp;|&nbsp; Expected PhD thesis defense, University of Waterloo.
-
-**Jul 2025** &nbsp;|&nbsp; Awarded the [Oravas Foundation Scholarship](https://oravas-foundation.com/award-winners-2/) for crystal plasticity-based damage modeling of advanced high-strength steels.
-
-**Feb 2025** &nbsp;|&nbsp; First-author paper published in *International Journal of Plasticity*. [[DOI]](https://doi.org/10.1016/j.ijplas.2025.104255)
-
-**Sep 2024** &nbsp;|&nbsp; Teaching Assistant for ME219, Mechanics of Deformable Solids, University of Waterloo.
-:::
-
-## Selected Publication
-
-::: {.pub-card}
+<div class="pub-card home-pub-card">
+<div class="pub-meta">
+2025 · JOURNAL ARTICLE
+</div>
 **Thermodynamically consistent damage evolution model coupled with rate-dependent crystal plasticity: Application to high-strength low alloy steel at various strain rates**
 
 S. Dayani, W. Muhammad, A. Brahme, F. Hekmat, T. Sabiston, K. Inal
 
-*International Journal of Plasticity*, vol. 186, 104255, 2025.
+*International Journal of Plasticity*, vol. 186, 104255.
 
-[Paper](https://doi.org/10.1016/j.ijplas.2025.104255){.btn-link} [Citation](publications.qmd){.btn-link}
-:::
+[DOI](https://doi.org/10.1016/j.ijplas.2025.104255){.text-link} [BibTeX](publications.qmd#bib-dayani2025){.text-link}
+</div>
+</div>
+
+<div class="home-bottom-side">
+<div class="section-kicker">
+LATEST
+</div>
+## Milestones
+
+<div class="milestone">
+<span class="milestone-date">AUG 2026</span>
+<span>Successfully defended my PhD thesis at the University of Waterloo.</span>
+</div>
+
+<div class="milestone">
+<span class="milestone-date">JAN 2026</span>
+<span>Invited oral presentation at ICPDF 2026 in Geelong, Australia.</span>
+</div>
+
+<div class="milestone">
+<span class="milestone-date">FEB 2025</span>
+<span>First-author paper published in *International Journal of Plasticity*.</span>
+</div>
+
+[All updates →](news.qmd){.text-link}
+</div>
+</div>
+
+<div class="contact-band">
+<div class="contact-copy">
+<div class="section-kicker">
+COLLABORATION
+</div>
+## Building a material model that must work beyond its calibration curves?
+</div>
+
+<div class="contact-action">
+[Discuss the problem](mailto:sandip.dayani09@gmail.com){.btn-light}
+</div>
+</div>
+</div>
