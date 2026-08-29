@@ -25,7 +25,7 @@ I developed and implemented a rate-dependent crystal-plasticity damage model for
 </div>
 
 <div class="research-hero-figure">
-![](assets/img/research/hsla_stress_temperature.png){fig-alt="Stress-strain and temperature response for HR340 and HR550 steels at multiple strain rates"}
+![](assets/img/research/Experimental_stress-strain.png){fig-alt="Experimental stress-strain response and temperature rise for HR340 and HR550 steels across multiple strain rates"}
 </div>
 </div>
 
@@ -33,7 +33,7 @@ I developed and implemented a rate-dependent crystal-plasticity damage model for
 
 <div class="research-panel">
 <div class="research-panel-figure">
-![](assets/img/research/hsla_microstructure.png){fig-alt="EBSD inverse pole figure maps and grain size histograms for HR340 and HR550 steels"}
+![](assets/img/research/Experimental_EBSD.pmg.png){fig-alt="Experimental EBSD inverse pole figure maps and grain-size distributions for HR340 and HR550 steels"}
 </div>
 
 <div class="research-panel-copy">
@@ -47,8 +47,10 @@ This gives a closed validation loop: microstructure informs the CP model, DIC an
 ## Predictive Modeling
 
 <div class="research-panel reverse">
-<div class="research-panel-figure">
-![](assets/img/research/hsla_damage_prediction.png){fig-alt="Crystal-plasticity damage evolution and intermediate strain-rate stress-strain predictions"}
+<div class="research-panel-figure research-panel-figure-stack">
+![](assets/img/research/model_validation.png){fig-alt="Crystal-plasticity model validation against experimental stress-strain curves for HR340 and HR550 steels"}
+
+![](assets/img/research/temp_dislocation.png){fig-alt="Predicted stress response and dislocation-density evolution for HR340 and HR550 steels"}
 </div>
 
 <div class="research-panel-copy">
