@@ -12,6 +12,56 @@ My publication record is centered on physics-based damage modeling for advanced 
 
 ::: {.pub-entry}
 
+**A thermomechanically coupled crystal plasticity damage model for quenching and partitioning steels: Effects of retained austenite stability, strain rates, and temperatures**
+
+S. Dayani, W. Muhammad, A. Brahme, F. Hekmat, T. Sabiston, K. Wang, K. Inal
+
+*International Journal of Plasticity*, vol. 207, 104856, 2026.
+
+[Paper](https://doi.org/10.1016/j.ijplas.2026.104856){.btn-link-primary} [BibTeX](#bib-dayani2026qp){.btn-link}
+
+::: {#bib-dayani2026qp .bibtex-block}
+```bibtex
+@article{dayani2026qp,
+  title   = {A thermomechanically coupled crystal plasticity damage model for quenching and partitioning steels: Effects of retained austenite stability, strain rates, and temperatures},
+  author  = {Dayani, Sandipkumar and Muhammad, Waqas and Brahme, Abhijit and Hekmat, Fatemeh and Sabiston, Trevor and Wang, Kathy and Inal, Kaan},
+  journal = {International Journal of Plasticity},
+  volume  = {207},
+  pages   = {104856},
+  year    = {2026},
+  doi     = {10.1016/j.ijplas.2026.104856}
+}
+```
+:::
+:::
+
+::: {.pub-entry}
+
+**Microstructure-informed thermomechanical crystal plasticity damage modeling of dual-phase steels**
+
+S. Dayani, W. Muhammad, A. Brahme, F. Hekmat, T. Sabiston, K. Wang, K. Inal
+
+*Journal of Materials Research and Technology*, vol. 45, pp. 1280–1305, 2026.
+
+[Paper](https://doi.org/10.1016/j.jmrt.2026.09.134){.btn-link-primary} [BibTeX](#bib-dayani2026dp){.btn-link}
+
+::: {#bib-dayani2026dp .bibtex-block}
+```bibtex
+@article{dayani2026dp,
+  title   = {Microstructure-informed thermomechanical crystal plasticity damage modeling of dual-phase steels},
+  author  = {Dayani, Sandipkumar and Muhammad, Waqas and Brahme, Abhijit and Hekmat, Fatemeh and Sabiston, Trevor and Wang, Kathy and Inal, Kaan},
+  journal = {Journal of Materials Research and Technology},
+  volume  = {45},
+  pages   = {1280--1305},
+  year    = {2026},
+  doi     = {10.1016/j.jmrt.2026.09.134}
+}
+```
+:::
+:::
+
+::: {.pub-entry}
+
 **Thermodynamically consistent damage evolution model coupled with rate-dependent crystal plasticity: Application to high-strength low alloy steel at various strain rates**
 
 S. Dayani, W. Muhammad, A. Brahme, F. Hekmat, T. Sabiston, K. Inal
@@ -36,20 +86,6 @@ S. Dayani, W. Muhammad, A. Brahme, F. Hekmat, T. Sabiston, K. Inal
 }
 ```
 :::
-:::
-
-## Submitted / Under Review
-
-::: {.pub-entry}
-**Crystal plasticity and damage modeling for dual-phase steels**
-
-First-author manuscript submitted or under review. Links and full citation details will be posted after publication.
-:::
-
-::: {.pub-entry}
-**Crystal plasticity and damage modeling for quenching and partitioning steels**
-
-First-author manuscript submitted or under review, focused on retained-austenite transformation, phase interaction, and failure behavior. Links and full citation details will be posted after publication.
 :::
 
 ## Research Direction
