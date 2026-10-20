@@ -1161,8 +1161,8 @@ a:hover {
 }
 
 .feature-panel-home {
-  grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
-  gap: 3rem;
+  grid-template-columns: 1fr;
+  gap: 2rem;
   margin: 0 0 5rem;
   padding: clamp(2rem, 5vw, 4rem);
   background: #E5EEEE;
@@ -1170,6 +1170,8 @@ a:hover {
   border-radius: 22px;
 
   .feature-copy {
+    max-width: 850px;
+
     h2 {
       margin: 0.45rem 0 1.1rem;
       color: #142E35;
@@ -1180,8 +1182,14 @@ a:hover {
     p { color: #4F6267; }
   }
 
+  .feature-image {
+    width: 100%;
+    max-width: 756px;
+    margin-inline: auto;
+  }
+
   .feature-image img {
-    max-height: 510px;
+    max-height: none;
     padding: 0.5rem;
     border: 1px solid #CCDADB;
     border-radius: 10px;
@@ -1210,6 +1218,10 @@ a:hover {
   border-radius: 10px;
 
   strong { font-size: 1.05rem; line-height: 1.5; }
+}
+
+.home-pub-card + .home-pub-card {
+  margin-top: 1.25rem;
 }
 
 .pub-meta { margin-bottom: 0.7rem; }
