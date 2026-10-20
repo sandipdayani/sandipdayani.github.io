@@ -1195,6 +1195,11 @@ a:hover {
     border-radius: 10px;
     box-shadow: 0 16px 32px rgba(15, 48, 55, 0.1);
   }
+
+  .feature-image p:last-child {
+    margin: 1rem 0 0;
+    text-align: center;
+  }
 }
 
 .home-bottom-grid {
@@ -1222,6 +1227,10 @@ a:hover {
 
 .home-pub-card + .home-pub-card {
   margin-top: 1.25rem;
+}
+
+.home-pub-card .text-link + .text-link {
+  margin-left: 0.9rem;
 }
 
 .pub-meta { margin-bottom: 0.7rem; }
