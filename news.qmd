@@ -7,6 +7,14 @@ toc: false
 ::: {.news-feed}
 
 ::: {.news-item}
+**Oct 2026** &nbsp;|&nbsp; Published a paper on quenching and partitioning steels in *International Journal of Plasticity*. [[DOI]](https://doi.org/10.1016/j.ijplas.2026.104856)
+:::
+
+::: {.news-item}
+**Sep 2026** &nbsp;|&nbsp; Published a paper on dual phase steels in *Journal of Materials Research and Technology*. [[DOI]](https://doi.org/10.1016/j.jmrt.2026.09.134)
+:::
+
+::: {.news-item}
 **Aug 2026** &nbsp;|&nbsp; Successfully defended my PhD thesis in Mechanical and Mechatronics Engineering at the University of Waterloo on 4 August 2026.
 :::
 
