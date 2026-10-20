@@ -15,10 +15,10 @@ CONSTITUTIVE MODELING · CRYSTAL PLASTICITY · VALIDATION
 
 # Physics-based micromechanical modeling for failure prediction in advanced high-strength steels.
 
-I develop constitutive models from first principles, implement them as **Fortran user-material subroutines**, and validate them against **EBSD, DIC, infrared thermography, and mechanical tests**. My work connects microstructural mechanisms to component-scale behavior for automotive forming, crash, and failure prediction.
+I develop constitutive models from first principles, implement them as **Fortran material subroutines**, and validate them against **EBSD, DIC, infrared thermography, and mechanical tests**. My work connects microstructural mechanisms to component behavior in automotive forming, crash, and failure prediction.
 
 <div class="hero-actions">
-[Explore my research](research.qmd){.btn-link-primary} [Download résumé](Sandip_Dayani_Resume.pdf){.btn-link} [Read the paper](https://doi.org/10.1016/j.ijplas.2025.104255){.text-link}
+[Explore my research](research.qmd){.btn-link-primary} [Download résumé](Sandip_Dayani_Resume.pdf){.btn-link} [View publications](publications.qmd){.text-link}
 </div>
 
 <div class="hero-meta">
@@ -55,15 +55,15 @@ Constitutive modeling · Multiscale validation · FEA
 </div>
 <div class="proof-item">
 <span class="proof-value">GM · sponsored</span>
-<span class="proof-label">industry-facing automotive research</span>
+<span class="proof-label">automotive materials research</span>
 </div>
 <div class="proof-item">
 <span class="proof-value">0.001–100 s<sup>−1</sup></span>
-<span class="proof-label">validated strain-rate window</span>
+<span class="proof-label">strain rate range studied</span>
 </div>
 <div class="proof-item">
-<span class="proof-value">IJP · 2025</span>
-<span class="proof-label">first-author journal paper</span>
+<span class="proof-value">3 journal articles</span>
+<span class="proof-label">published in 2025 and 2026</span>
 </div>
 </div>
 
@@ -71,9 +71,9 @@ Constitutive modeling · Multiscale validation · FEA
 <div class="section-kicker">
 FROM THEORY TO PREDICTION
 </div>
-## A complete constitutive-modeling workflow
+## How I build and validate material models
 
-I work across the full chain—derivation, implementation, experimentation, and validation—so model assumptions remain traceable to engineering decisions.
+I derive constitutive equations, implement them in a solver, and test their predictions against experiments. This makes it possible to check what each model assumption contributes.
 </div>
 
 <div class="capability-rail">
@@ -82,7 +82,7 @@ I work across the full chain—derivation, implementation, experimentation, and 
 <span class="capability-number">01</span><span class="capability-symbol">∂</span>
 </div>
 ### Constitutive theory
-Finite-deformation kinematics, free-energy and dissipation formulations, rate- and temperature-dependent plasticity, and thermodynamically consistent damage.
+Finite deformation kinematics, free energy and dissipation, plasticity across strain rates and temperatures, and thermodynamically consistent damage.
 
 <div class="capability-tools">Thermodynamics · Crystal plasticity</div>
 </div>
@@ -92,7 +92,7 @@ Finite-deformation kinematics, free-energy and dissipation formulations, rate- a
 <span class="capability-number">02</span><span class="capability-symbol">{ }</span>
 </div>
 ### Solver implementation
-Custom constitutive physics implemented as Fortran UMAT/VUMAT subroutines inside implicit and explicit commercial finite-element solvers.
+Custom constitutive models implemented as Fortran UMAT/VUMAT subroutines in implicit and explicit finite element solvers.
 
 <div class="capability-tools">Fortran · Abaqus · LS-DYNA</div>
 </div>
@@ -102,7 +102,7 @@ Custom constitutive physics implemented as Fortran UMAT/VUMAT subroutines inside
 <span class="capability-number">03</span><span class="capability-symbol">◎</span>
 </div>
 ### Instrumented validation
-Test design and bottom-up validation from microstructure and coupon response to component behavior across strain rate and temperature.
+Tests and model validation from microstructure and coupon response to component behavior across strain rates and temperatures.
 
 <div class="capability-tools">EBSD · DIC · IR · V-bend</div>
 </div>
@@ -112,7 +112,7 @@ Test design and bottom-up validation from microstructure and coupon response to 
 <span class="capability-number">04</span><span class="capability-symbol">↗</span>
 </div>
 ### Predictive acceleration
-Physics-informed datasets and DeepONet surrogates that predict formability and mechanical response without repeating every full solver run.
+Constitutive model data and DeepONet surrogates to predict formability and mechanical response without repeating every full solver run.
 
 <div class="capability-tools">Python · PyTorch · DeepONet</div>
 </div>
@@ -123,9 +123,9 @@ Physics-informed datasets and DeepONet surrogates that predict formability and m
 <div class="section-kicker">
 FEATURED RESEARCH
 </div>
-## Crystal-plasticity damage modeling—from derivation to validation
+## Crystal plasticity damage modeling and validation
 
-For HR340 and HR550 steels, I derived a thermodynamically consistent damage formulation, implemented it in a rate-dependent crystal-plasticity framework, and validated stress-strain response, temperature rise, texture evolution, and damage across strain rates.
+For HR340 and HR550 steels, I derived a thermodynamically consistent damage formulation, implemented strain rate dependence in a crystal plasticity model, and compared its predictions with measured stress–strain response, temperature rise, texture evolution, and damage.
 
 **Published in:** *International Journal of Plasticity*, 186, 104255 (2025)
 
@@ -133,29 +133,46 @@ For HR340 and HR550 steels, I derived a thermodynamically consistent damage form
 </div>
 
 <div class="feature-image">
-![](assets/img/research/hsla_stress_temperature.png){fig-alt="Stress-strain and temperature response for HR340 and HR550 steels at multiple strain rates"}
+![](assets/img/research/github.png){fig-alt="Four plots of engineering stress and temperature rise versus engineering strain at multiple strain rates"}
+
+[Open full figure](assets/img/research/github.png){.text-link}
 </div>
 </div>
 
 <div class="home-bottom-grid">
 <div class="home-bottom-main">
 <div class="section-kicker">
-SELECTED PUBLICATION
+RECENT PUBLICATIONS
 </div>
-## Recent peer-reviewed work
+## Recent journal articles
 
 <div class="pub-card home-pub-card">
 <div class="pub-meta">
-2025 · JOURNAL ARTICLE
+2026 · INTERNATIONAL JOURNAL OF PLASTICITY
 </div>
-**Thermodynamically consistent damage evolution model coupled with rate-dependent crystal plasticity: Application to high-strength low alloy steel at various strain rates**
+**A thermomechanically coupled crystal plasticity damage model for quenching and partitioning steels: Effects of retained austenite stability, strain rates, and temperatures**
 
-S. Dayani, W. Muhammad, A. Brahme, F. Hekmat, T. Sabiston, K. Inal
+S. Dayani, W. Muhammad, A. Brahme, F. Hekmat, T. Sabiston, K. Wang, K. Inal
 
-*International Journal of Plasticity*, vol. 186, 104255.
+*International Journal of Plasticity*, vol. 207, 104856.
 
-[DOI](https://doi.org/10.1016/j.ijplas.2025.104255){.text-link} [BibTeX](publications.qmd#bib-dayani2025){.text-link}
+[DOI](https://doi.org/10.1016/j.ijplas.2026.104856){.text-link} [BibTeX](publications.qmd#bib-dayani2026qp){.text-link}
 </div>
+
+<div class="pub-card home-pub-card">
+<div class="pub-meta">
+2026 · JOURNAL OF MATERIALS RESEARCH AND TECHNOLOGY
+</div>
+**Microstructure-informed thermomechanical crystal plasticity damage modeling of dual-phase steels**
+
+S. Dayani, W. Muhammad, A. Brahme, F. Hekmat, T. Sabiston, K. Wang, K. Inal
+
+*Journal of Materials Research and Technology*, vol. 45, pp. 1280–1305.
+
+[DOI](https://doi.org/10.1016/j.jmrt.2026.09.134){.text-link} [BibTeX](publications.qmd#bib-dayani2026dp){.text-link}
+</div>
+
+[View all publications](publications.qmd){.text-link}
 </div>
 
 <div class="home-bottom-side">
@@ -165,18 +182,18 @@ LATEST
 ## Milestones
 
 <div class="milestone">
+<span class="milestone-date">OCT 2026</span>
+<span>Published a paper on quenching and partitioning steels in *International Journal of Plasticity*.</span>
+</div>
+
+<div class="milestone">
+<span class="milestone-date">SEP 2026</span>
+<span>Published a paper on dual phase steels in *Journal of Materials Research and Technology*.</span>
+</div>
+
+<div class="milestone">
 <span class="milestone-date">AUG 2026</span>
-<span>Successfully defended my PhD thesis at the University of Waterloo.</span>
-</div>
-
-<div class="milestone">
-<span class="milestone-date">JAN 2026</span>
-<span>Invited oral presentation at ICPDF 2026 in Geelong, Australia.</span>
-</div>
-
-<div class="milestone">
-<span class="milestone-date">FEB 2025</span>
-<span>First-author paper published in *International Journal of Plasticity*.</span>
+<span>Defended my PhD thesis at the University of Waterloo.</span>
 </div>
 
 [All updates →](news.qmd){.text-link}
