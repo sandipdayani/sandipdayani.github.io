@@ -135,7 +135,7 @@ For HR340 and HR550 steels, I derived a thermodynamically consistent damage form
 <div class="feature-image">
 ![](assets/img/research/github.png){fig-alt="Four plots of engineering stress and temperature rise versus engineering strain at multiple strain rates"}
 
-[Open full figure](assets/img/research//stress-temp-strain.png){.text-link}
+[Open full figure](assets/img/research/Experimental_stress-strain.png){.text-link}
 </div>
 </div>
 
